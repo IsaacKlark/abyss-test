@@ -1,0 +1,223 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 55px 33px 45px;
+  box-sizing: border-box;
+}
+
+.leftSide {
+  display: flex;
+  column-gap: 7px;
+  align-items: center;
+}
+
+.leftText {
+  font-size: 33px;
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+.amount {
+  width: 28px;
+  height: 28px;
+  background-color: #f9b631;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 3px;
+}
+
+.rightSide {
+  display: flex;
+  column-gap: 5px;
+}
+
+.rightButton {
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+  transition: all 0.5s;
+
+  p {
+    font-size: 27px;
+    color: #a3bcc7;
+    margin: 0;
+    padding: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    p {
+      color: white;
+    }
+  }
+}
+
+.rightButtonWithImage {
+  width: 48px;
+  height: 51px;
+  background-color: transparent;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+  margin-right: 9px;
+  position: relative;
+
+  img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  transition: all 0.5s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ccc;
+
+    p {
+      color: white;
+    }
+  }
+}
+
+.rightMiddleButton {
+  width: 87px;
+  height: 48px;
+  background-color: transparent;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+  transition: all 0.5s;
+  position: relative;
+
+  p {
+    font-size: 16px;
+    color: #a3bcc7;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    p {
+      color: white;
+    }
+  }
+}
+
+.coloredButton {
+  background-color: #6970db;
+  width: 105px;
+  height: 54px;
+  border: none;
+  outline: none;
+  margin-right: 7px;
+
+  p {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.tooltipWrapper {
+  position: absolute;
+  bottom: 0;
+  bottom: -65px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  background-color: #a3bcc7;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 13px;
+  width: 88px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -18px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #a3bcc7 transparent;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  top: 64px;
+  left: -6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 5px;
+  width: 100px;
+  height: 32px;
+  align-items: center;
+  border: none;
+  outline: none;
+
+  p {
+    font-size: 16px;
+  }
+
+  img {
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0;
+  }
+}
+
+.dropdownWrapper {
+  position: relative;
+  z-index: 4;
+}
+

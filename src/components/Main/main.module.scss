@@ -1,0 +1,93 @@
+.wrapper {
+  width: 100%;
+  height: calc(100vh - 136px);
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    cursor: all-scroll;
+  }
+}
+
+.arrowTop {
+  background-color: #ccc;
+  position: absolute;
+  width: 139px;
+  height: 48px;
+  top: 0;
+  left: calc(50% - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  user-select: none;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.arrowBottom {
+  background-color: #ccc;
+  position: absolute;
+  width: 139px;
+  height: 48px;
+  bottom: 0;
+  left: calc(50% - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  user-select: none;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.arrowLeft {
+  background-color: #ccc;
+  position: absolute;
+  height: 139px;
+  width: 48px;
+  left: 0;
+  top: calc(50% - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  user-select: none;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.arrowRight {
+  background-color: #ccc;
+  position: absolute;
+  height: 139px;
+  width: 48px;
+  right: 0;
+  top: calc(50% - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  user-select: none;
+  
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.draggable {
+  padding-top: 100px;
+  width: max-content;
+  position: relative;
+  left: calc(50% - 71px);
+}
