@@ -1,10 +1,10 @@
 .text {
-  font-size: 19px;
+  font-size: 1.1875rem;
   display: flex;
   font-weight: 500;
   font-family: "Poppins";
   text-align: center;
-  height: 51px;
+  height: 3.1875rem;
   justify-content: center;
   align-items: center;
   user-select: none;
@@ -12,23 +12,23 @@
 
 .categoriesWrapper {
   display: flex;
-  column-gap: 34px;
+  column-gap: 2.125rem;
   align-items: center;
   user-select: none;
 }
 
 .categoryWrapper {
   display: flex;
-  column-gap: 9px;
+  column-gap: 0.5625rem;
   align-items: center;
   user-select: none;
-  margin-top: 23px;
+  margin-top: 1.4375rem;
   position: relative;
 }
 
 .add {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   border: none;
   outline: none;
 
@@ -45,7 +45,7 @@
 .categories {
   display: flex;
   align-items: flex-start;
-  column-gap: 99px;
+  column-gap: 6.1875rem;
 }
 
 .topWrapper {
@@ -56,10 +56,10 @@
 }
 
 .input {
-  width: 180px;
-  height: 47px;
+  width: 11.25rem;
+  height: 2.9375rem;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Poppins Medium";
   border: none;
   outline: none;
@@ -69,16 +69,16 @@
   background-color: #f96;
   color: white;
   width: max-content;
-  padding: 10px 19px;
-  font-size: 19px;
+  padding: 0.625rem 1.1875rem;
+  font-size: 1.1875rem;
 }
 
 .subCategoryName {
   background-color: #18b2d5;
   color: white;
   width: max-content;
-  padding: 10px 19px;
-  font-size: 19px;
+  padding: 0.625rem 1.1875rem;
+  font-size: 1.1875rem;
 }
 
 .subCategoriesWrapper {

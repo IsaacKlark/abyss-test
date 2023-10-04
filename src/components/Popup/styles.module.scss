@@ -1,14 +1,14 @@
 .popup {
     background-color: white;
-    width: 371px;
-    height: 196px;
-    margin-top: 52px;
-    box-shadow: 0px 4px 11px -4px black;
+    width: 23.1875rem;
+    height: 12.25rem;
+    margin-top: 3.25rem;
+    box-shadow: 0rem 0.25rem 0.6875rem -0.25rem black;
   }
   
   .popupHeader {
-    font-size: 18px;
-    margin-top: 60px;
+    font-size: 1.125rem;
+    margin-top: 3.75rem;
     font-family: "Poppins";
   }
   
@@ -16,18 +16,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    column-gap: 10px;
-    margin-top: 36px;
+    column-gap: 0.625rem;
+    margin-top: 2.25rem;
   }
   
   .popupButton {
-    width: 107px;
-    height: 49px;
+    width: 6.6875rem;
+    height: 3.0625rem;
     background-color: white;
     border: none;
     outline: none;
     color: gray;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
     font-family: "Poppins";
     text-transform: uppercase;

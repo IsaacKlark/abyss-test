@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(0.625rem + 2vmin);
   color: white;
 }
 
@@ -42,5 +42,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (max-width: 1900px) {
+  html {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 15px; 
+  }
+}
+
+@media (max-width: 1500px) {
+  html {
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 0.8125rem; 
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 12px; 
+  }
+}
+
 
 
