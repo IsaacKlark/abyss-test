@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/abyss-test/static/css/main.60a35c11.css",
+    "main.css": "/abyss-test/static/css/main.a8210597.css",
     "main.js": "/abyss-test/static/js/main.9c24f91e.js",
     "static/js/787.b5446ce9.chunk.js": "/abyss-test/static/js/787.b5446ce9.chunk.js",
     "index.html": "/abyss-test/index.html",
-    "main.60a35c11.css.map": "/abyss-test/static/css/main.60a35c11.css.map",
+    "main.a8210597.css.map": "/abyss-test/static/css/main.a8210597.css.map",
     "main.9c24f91e.js.map": "/abyss-test/static/js/main.9c24f91e.js.map",
     "787.b5446ce9.chunk.js.map": "/abyss-test/static/js/787.b5446ce9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60a35c11.css",
+    "static/css/main.a8210597.css",
     "static/js/main.9c24f91e.js"
   ]
 }
