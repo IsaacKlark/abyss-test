@@ -122,7 +122,6 @@ const Categories: React.FC<CategoriesProps> = ({
         if (findCategoryById(category, _parent)) {
           parent = findCategoryById(category, _parent);
           if (parent) {
-            // eslint-disable-next-line no-delete-var
             parent.subCategories = parent.subCategories.filter(
               (el) => el.id !== _id
             );
