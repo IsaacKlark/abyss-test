@@ -117,7 +117,7 @@ const Categories: React.FC<CategoriesProps> = ({
     const copyCategories: categoriesInterface[] = [...categories];
     let parent: categoriesInterface | undefined = undefined;
 
-    if (_parent) {
+    if (_parent || _parent === 0) {
       copyCategories.forEach((category) => {
         if (findCategoryById(category, _parent)) {
           parent = findCategoryById(category, _parent);
